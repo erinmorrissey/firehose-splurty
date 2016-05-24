@@ -50,3 +50,6 @@ gem 'rails_12factor', group: :production
 # add Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
+
+# add Simpleform
+gem 'simple_form'
