@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
 
 
 
@@ -28,39 +28,61 @@ hr {
   clear:both;
 }
 
+a.logo img {
+  max-width: 170px;
+}
+
 .logo:hover {
   text-decoration: none;
 }
 
 .links {
-  padding-top:26px;
+  float:right;
+  margin-top:3px;
+  margin-bottom:20px;
+}
+
+@media (max-width: 750px) {
+  .links {
+    margin-bottom:40px;
+  }
 }
 
 .links a {
-  color:black;
-  font-size:25px;
-  border-bottom:1px solid #dfdfdf;
+  color:#333333;
+  font-size:18px;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight:600;
 }
 
-header {
-  border-top:9px solid #222222;
+.links a:hover {
+  border-top: 5px solid #333333;
+  text-decoration: none;
 }
 
 #title {
   font-family: 'chunkfiveroman', sans-serif;
-  font-size:68px;
+  font-size:60px;
+  padding-top:30px;
 }
+
+@media (max-width: 750px) {
+  #title {
+    font-size:50px;
+  }
+}
+
 #title span {
   display:block;
   font-size:28px;
   color:#999999;
-  padding-top:20px;
+  padding:20px 0;
 }
 
 h1 {
-  font-family: 'chunkfiveroman', sans-serif;
-  font-size:48px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:55px;
+  font-weight:400;
 }
 
 h2 {
@@ -96,5 +118,5 @@ h2 {
 
 
 ::selection {
-  background-color: #f84342;
+  background-color: #FF0000;
 }
