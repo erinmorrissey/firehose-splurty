@@ -29,7 +29,7 @@ hr {
 }
 
 a.logo img {
-  max-width: 170px;
+  max-width: 150px;
 }
 
 .logo:hover {
@@ -74,15 +74,17 @@ a.logo img {
 
 #title span {
   display:block;
-  font-size:28px;
+  font-size:20px;
   color:#999999;
-  padding:20px 0;
+  padding:40px 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size:55px;
   font-weight:400;
+  margin-top:0;
 }
 
 h2 {
@@ -90,9 +92,9 @@ h2 {
 }
 
 .next-quote {
-  color:red;
   font-family: 'Source Sans Pro', sans-serif;
   font-size:20px;
+  margin-top:40px;
 }
 
 .footer-blurb {
@@ -113,9 +115,21 @@ h2 {
 }
 
 .modal {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
 }
 
+h4.modal-title {
+  font-size: 24px;
+}
+
+.modal-body {
+  font-size: 18px;
+}
+
+.modal-body abbr[title] {
+  border-bottom:none;
+}
 
 ::selection {
   background-color: #FF0000;
