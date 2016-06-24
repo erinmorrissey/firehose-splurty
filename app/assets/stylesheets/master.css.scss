@@ -60,6 +60,10 @@ a.logo img {
   text-decoration: none;
 }
 
+.links a:focus {
+  text-decoration: none;
+}
+
 #title {
   font-family: 'chunkfiveroman', sans-serif;
   font-size:60px;
@@ -121,6 +125,7 @@ h2 {
 
 h4.modal-title {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .modal-body {
